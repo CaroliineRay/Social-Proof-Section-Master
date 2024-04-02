@@ -12,7 +12,6 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-position: left top, 300px;
     background-size: contain;
-
 }
 
 h1 {
@@ -105,11 +104,16 @@ h6 {
 
 @media screen and (min-width: 900px) {
     body {
+        border: 1px solid black;
         max-width: 80%;
         margin: 50px auto;
         background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
         background-repeat: no-repeat;
         background-position: -450px -130px, 350px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
     
     .container-1 {
