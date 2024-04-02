@@ -5,9 +5,11 @@
 
 body {
     width: 90%;
+    height: 100%;
     margin: 80px auto;
     font-size: 15px;
     font-family: "League Spartan", sans-serif;
+    background-color: white;
     background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: left top, 300px;
