@@ -5,7 +5,6 @@
 
 body {
     width: 90%;
-    height: 100%;
     margin: 80px auto;
     font-size: 15px;
     font-family: "League Spartan", sans-serif;
@@ -105,16 +104,21 @@ h6 {
 }
 
 @media screen and (min-width: 900px) {
+    html {
+        height: 100%;
+    }
+    
     body {
+        height: 100%;
         max-width: 80%;
-        margin: 50px auto;
+        margin: 0 auto;
         background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
         background-repeat: no-repeat;
         background-position: -450px -130px, 350px 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
     .container-1 {
