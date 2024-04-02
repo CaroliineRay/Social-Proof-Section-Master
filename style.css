@@ -104,7 +104,6 @@ h6 {
 
 @media screen and (min-width: 900px) {
     body {
-        border: 1px solid black;
         max-width: 80%;
         margin: 50px auto;
         background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
